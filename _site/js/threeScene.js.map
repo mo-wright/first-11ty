@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../_src/threeScene.js"],
+  "sourcesContent": [""],
+  "mappings": "+FAAA,IAAAA,EAAAC,EAAA",
+  "names": ["require_threeScene", "__commonJSMin"]
+}
