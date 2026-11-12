@@ -1,5 +1,5 @@
 ---
-title: Why: The Walled Garden
+title: Why, The Walled Garden
 order: 3
 ---
 Section that describes:
