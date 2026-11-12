@@ -1,7 +1,10 @@
 <!doctype html>
 <html lang="en">
 <head>
+
       <link rel="stylesheet" href="css/style.css">
+      <script type="module" src="js/is-land.js"></script>
+
 
      <meta charset="UTF-8">
      <meta name="viewport" 
@@ -15,7 +18,9 @@
      <title></title>
 </head>
 <body>
-
+    <nav>
+    | <a href="index.html">Home</a> | <a href="guide.html">Guide </a> |
+</nav>
     
 
 <main>
@@ -52,6 +57,19 @@
 <li>the idea that despite this, kids and young adults appear to have less knowledge on how their devices function</li>
 <li>use the file directory example from the article</li>
 </ul>
+<is-land on:visible>
+  <div id="counter" v-scope="{ count: 0 }">
+    <p>Count: <span v-text="count"></span></p>
+    <button @click="count++">+</button>
+    <button @click="count--">-</button>
+  </div>
+  <template data-island>
+    <script type="module">
+      import { createApp } from './js/petite-vue.js'
+      createApp().mount('#counter')
+    </script>
+  </template>
+</is-land>
 
   </section>
   
@@ -93,6 +111,5 @@
   
 </main>
 
-    
 </body>
 </html>
