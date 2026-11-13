@@ -5,3 +5,12 @@ img {
     height: 300px;
     width: auto;
 }
+
+.filters button.on {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.topic img {
+  max-width: 14rem;
+  margin: 0.5rem;
+}

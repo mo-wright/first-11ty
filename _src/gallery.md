@@ -1,16 +1,16 @@
 ---
 title: Gallery
 layout: base.njk
+permalink: gallery.html
 ---
 
 <is-land on:visible>
-
 <div id="gallery" v-scope="{ active: 'all' }">
   <div class="filters">
     <button @click="active = 'all'" :class="{ on: active === 'all' }" :aria-pressed="active === 'all'">All</button>
-    <button @click="active = 'nature'" :class="{ on: active === 'nature' }" :aria-pressed="active === 'nature'">Sketches</button>
-    <button @click="active = 'portraits'" :class="{ on: active === 'portraits' }" :aria-pressed="active === 'portraits'">Photos</button>
-    <button @click="active = 'sketches'" :class="{ on: active === 'sketches' }" :aria-pressed="active === 'sketches'">Type</button>
+    <button @click="active = 'nature'" :class="{ on: active === 'nature' }" :aria-pressed="active === 'nature'">Nature</button>
+    <button @click="active = 'portraits'" :class="{ on: active === 'portraits' }" :aria-pressed="active === 'portraits'">Portraits</button>
+    <button @click="active = 'sketches'" :class="{ on: active === 'sketches' }" :aria-pressed="active === 'sketches'">Sketches</button>
   </div>
   <section class="topic" v-show="active === 'all' || active === 'nature'">
     <h3>Nature</h3>
