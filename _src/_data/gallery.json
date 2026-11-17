@@ -1,0 +1,48 @@
+{
+  "nature": [
+    {
+      "file": "first.jpg",
+      "caption": "PHOTO202, Sample One",
+      "alt": "A dark, forested area."
+    },
+    {
+      "file": "second.jpg",
+      "caption": "PHOTO202, Sample Two",
+      "alt": "A brightly lit piece of limestone in a forested area."
+    },
+    {
+      "file": "third.jpg",
+      "caption": "PHOTO202, Sample Three",
+      "alt": "Three trees, one fallen, with sunlight draping over them."
+    }
+  ],
+  "portraits": [
+    {
+      "file": "first.jpg",
+      "caption": "Will Graham",
+      "alt": "A stylized illustration of Will Graham from Hannibal with deer antlers and a bloodied fist."
+    },
+    {
+      "file": "second.jpg",
+      "caption": "bbno$",
+      "alt": "A painterly illustration of bbno$ in cabaret inspired makeup."
+    }
+  ],
+  "sketches": [
+    {
+      "file": "first.jpg",
+      "caption": "Beth, Mia, and Alice",
+      "alt": "A digital sketch of Beth, Mia, and Alice from the Evil Dead movies."
+    },
+    {
+      "file": "second.jpg",
+      "caption": "Hatsune Miku",
+      "alt": "A chibi-styled pencil sketch of vocaloid Hatsune Miku."
+    },
+    {
+      "file": "pim.png",
+      "caption": "Pim",
+      "alt": "A marker sketch of Pim from Smiling Friends with angel wings and a halo."
+    }
+  ]
+}
