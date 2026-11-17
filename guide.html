@@ -19,7 +19,7 @@
 </head>
 <body>
     <nav>
-    | <a href="index.html">Home</a> | <a href="guide.html">Guide</a> | <a href="gallery.html">Gallery</a> |
+    | <a href="index.html">Home</a> | <a href="guide.html">Guide</a> | <a href="gallery.html">Gallery</a> | <a href="gallery-auto.html">Better Gallery</a> |
 </nav>
     
 
@@ -110,6 +110,29 @@
   </section>
   
 </main>
+
+    <strong>Page last updated:</strong>
+
+  <time class="fmt-date" datetime="2026-11-10T15:31:21-05:00">2026-11-10T15:31:21-05:00</time>
+
+&middot;
+<strong>Site last built:</strong>
+<time class="fmt-date" datetime="2026-11-17T20:00:11.727Z">2026-11-17T20:00:11.727Z</time>
+
+<is-land on:visible>
+  <template data-island>
+    <script type="module">
+      const fmt = new Intl.DateTimeFormat(undefined, {
+        dateStyle: "medium",
+        timeStyle: "short"
+      });
+      document.querySelectorAll("time.fmt-date").forEach((el) => {
+        el.textContent = fmt.format(new Date(el.getAttribute("datetime")));
+      });
+    </script>
+  </template>
+</is-land>
+
 
 </body>
 </html>
