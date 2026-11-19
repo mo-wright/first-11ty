@@ -17,8 +17,6 @@ order: 4
 </table>
 
 <script id="decade-data" type="application/json">{{ decades | json }}</script>
-<script src="/js/timeline.js" defer></script>
-
 <p id="skills">{{ decades[0].text }}</p>
 
 Section that includes timeline of "average" knowledgebase of a young adult
