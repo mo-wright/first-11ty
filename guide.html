@@ -5,7 +5,6 @@
       <link rel="stylesheet" href="css/style.css">
       <script type="module" src="js/is-land.js"></script>
 
-
      <meta charset="UTF-8">
      <meta name="viewport" 
            content="width=device-width, 
@@ -93,7 +92,8 @@
 <li>What a walled garden is</li>
 <li>What programs/techs use this approach</li>
 <li>A comparison of the customization tools available on older operating systems/programs</li>
-<li>(Include gallery of previous bullet)</li>
+<li>(Include gallery of previous bullet)
+<a href="https://guidebookgallery.org/index/">These images are sourced from GUIdebook, one of the best resources for a glimpse into old operating system designs.</a></li>
 <li>Introduce my personal theory of easy customization GUIs removing the need to learn certain things unless you're in niche circles (i.e. me and a lot of my friends got into coding through sims modding)</li>
 </ul>
 
@@ -102,7 +102,25 @@
   <section id="what-a-developer-from-each-decade-knows">
     <h2>What A Developer from Each Decade Knows</h2>
     
-    <p>Section that includes timeline of &quot;average&quot; knowledgebase of a young adult</p>
+    <input type="range" id="timeline" name="Year" min="1980" max="2020" value="1980" step="10">
+<p id="decade">1980</p>
+<button id="tableToggle">View as Table</button>
+<table id="decadeTable" class="hidden">
+<thead>
+<tr><th>Decade</th><th>Skills</th></tr>
+</thead>
+<tbody>
+<tr><td>1980</td><td>This is what will appear for 1980.</td></tr>
+<tr><td>1990</td><td>This is what will appear for 1990.</td></tr>
+<tr><td>2000</td><td>This is what will appear for 2000.</td></tr>
+<tr><td>2010</td><td>This is what will appear for 2010.</td></tr>
+<tr><td>2020</td><td>This is what will appear for 2020.</td></tr>
+</tbody>
+</table>
+<script id="decade-data" type="application/json">[{"year":1980,"text":"This is what will appear for 1980."},{"year":1990,"text":"This is what will appear for 1990."},{"year":2000,"text":"This is what will appear for 2000."},{"year":2010,"text":"This is what will appear for 2010."},{"year":2020,"text":"This is what will appear for 2020."}]</script>
+<script src="/js/timeline.js" defer></script>
+<p id="skills">This is what will appear for 1980.</p>
+<p>Section that includes timeline of &quot;average&quot; knowledgebase of a young adult</p>
 <ul>
 <li>Aggregate of comp-sci syllabi, high school comp-sci coursework, what would be required to know to operate a personal computer</li>
 </ul>
@@ -117,7 +135,7 @@
 
 &middot;
 <strong>Site last built:</strong>
-<time class="fmt-date" datetime="2026-11-17T20:00:11.727Z">2026-11-17T20:00:11.727Z</time>
+<time class="fmt-date" datetime="2026-11-19T18:24:42.170Z">2026-11-19T18:24:42.170Z</time>
 
 <is-land on:visible>
   <template data-island>
